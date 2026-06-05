@@ -18,7 +18,7 @@ function LandingPage({ greetingLine, enterSabha }) {
         <div className="landing__arc landing__arc--right" />
 
         <section className="landing__content">
-          <p className="landing__eyebrow">Acharya Guru</p>
+          
 
           <h1 className="landing__title">Acharya Vishnugupta</h1>
 
@@ -27,6 +27,9 @@ function LandingPage({ greetingLine, enterSabha }) {
           </p>
 
           <p className="landing__greeting">{greetingLine}</p>
+        <footer className="landing__footer">
+    © 2026 Chanakya Niti. All Rights Reserved.
+  </footer>
 
           <div className="landing__figure-wrap">
             <img

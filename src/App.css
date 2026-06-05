@@ -274,6 +274,18 @@ img {
   line-height: 1.22;
 }
 
+.landing__footer {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  letter-spacing: 0.5px;
+  z-index: 10;
+}
+
 .enter-btn {
   margin-top: 10px;
   transition: all 0.25s ease;
@@ -317,6 +329,8 @@ img {
 }
 
 .sabha__hero {
+  padding: 2rem;
+  min-height: auto;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -350,13 +364,14 @@ img {
 .sabha__title {
   margin: 0;
   font-family: 'Cinzel', serif;
-  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-size: 2.8rem;
   color: var(--gold-soft);
+  line-height: 1.1;
 }
 
 .sabha__subtitle {
   margin: 10px 0 0;
-  font-size: clamp(1.4rem, 2vw, 2rem);
+  font-size: 1.2rem;
   color: var(--text-dim);
   font-style: italic;
 }
@@ -374,7 +389,7 @@ img {
 
 .sabha__divider {
   text-align: center;
-  margin: 40px 0;
+  margin: 15px 0;
   color: var(--gold);
   font-size: 1.6rem;
   position: relative;
@@ -397,12 +412,21 @@ img {
   object-fit: contain;
 }
 
+.sabha__footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.5px;
+}
+
 .chat-panel {
   width: 100%;
   max-width: 1400px;
   margin-top: -40px;
 
-  min-height: 400px;
+  min-height: unset;
   height: auto;
 
   border-radius: 24px;  
@@ -418,7 +442,7 @@ img {
 
   box-shadow: 0 40px 100px rgba(0,0,0,0.9),
     inset 0 1px 0 rgba(255,200,120,0.08);
-  margin: 30px auto;
+  margin: 20px auto;
 
   display: flex;
   flex-direction: column;
@@ -472,8 +496,9 @@ img {
   flex-direction: column;
   gap: 16px;
   align-items: stretch; /* 🔥 KEY LINE */
-  
-  min-height: 300px;
+  max-height: 220px;
+  overflow-y: auto;
+  min-height: 120px;
   scrollbar-width: thin;
   scrollbar-color: rgba(212, 149, 51, 0.6) transparent;
 }
@@ -615,7 +640,7 @@ img {
 
 .scroll-input {
   width: 50%;
-  margin: 40px auto 60px;
+  margin: 20px auto;
   position: relative;
 
   display: flex;
@@ -624,7 +649,7 @@ img {
 
   padding: 16px 18px;
   
-  margin-top: 60px;
+ 
 
   border-radius: 20px;
   border: 1px solid rgba(216,149,51,0.25);

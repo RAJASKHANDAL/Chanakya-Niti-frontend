@@ -126,9 +126,14 @@ useEffect(() => {
             </button>
           </div>
         </section>
+          {/* COPYRIGHT */}
+        <footer className="sabha__footer">
+          © 2026 Chanakya Niti. All Rights Reserved.
+        </footer>
       </main>
     </>
   );
+  
 }
 
 export default SabhaPage;
