@@ -887,6 +887,61 @@ img {
   .chat-panel__body {
     padding: 18px;
   }
+}
 
+@media (max-width: 768px) {
 
+  .sabha {
+    padding: 12px;
+  }
+
+  .sabha__hero {
+    padding: 16px;
+  }
+
+  .sabha__title {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+
+  .sabha__subtitle {
+    font-size: 1rem;
+  }
+
+  .sabha__seal {
+    width: 80px;
+    height: 80px;
+  }
+
+  .chat-panel {
+    margin: 16px auto;
+  }
+
+  .chat-panel__body {
+    min-height: 120px;
+    max-height: 180px;
+  }
+
+  .message,
+  .message--acharya,
+  .message--user {
+    max-width: 95%;
+  }
+
+  .message__text {
+    font-size: 1.2rem;
+  }
+
+  .scroll-input {
+    width: 100%;
+    margin: 16px auto;
+  }
+
+  .scroll-input__field {
+    min-height: 60px;
+  }
+
+  .sabha__divider {
+    margin: 10px 0;
+  }
 }
