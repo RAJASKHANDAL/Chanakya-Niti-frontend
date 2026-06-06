@@ -29,7 +29,7 @@ useEffect(() => {
       {/* TOP BAR */}
       <header className="topbar">
         <div className="topbar__chant">
-          NITI SHASTRA ✦ ARTHASHASTRA ✦ CHANAKYA NITI ✦ KAUTILYA ✦ CHANDRAGUPTA MAURYA ✦ VIDUR NITI
+          ✦ CHANAKYA NITI ✦
         </div>
         <div className="chat-panel__head">
   <span className="chat-panel__dot" />
