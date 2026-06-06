@@ -104,13 +104,7 @@ useEffect(() => {
               </article>
             ))}
           </div>
-        </section>
-        
-
-        {/* DIVIDER */}
-        <div className="sabha__divider">✦</div>
-
-        {/* INPUT */}
+          {/* INPUT */}
         <section className="scroll-input">
           <textarea
             className="scroll-input__field"
@@ -126,6 +120,13 @@ useEffect(() => {
             </button>
           </div>
         </section>
+        </section>
+        
+
+        {/* DIVIDER */}
+        <div className="sabha__divider">✦</div>
+
+        
           {/* COPYRIGHT */}
         <footer className="sabha__footer">
           © 2026 Chanakya Niti. All Rights Reserved.
