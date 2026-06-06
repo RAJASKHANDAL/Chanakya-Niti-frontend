@@ -108,7 +108,7 @@ useEffect(() => {
         <section className="scroll-input">
           <textarea
             className="scroll-input__field"
-            placeholder="What troubles your mind, seeker?"
+            placeholder="Present your dilemma..."
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
