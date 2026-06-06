@@ -937,15 +937,32 @@ img {
   }
 
   .scroll-input {
+
+    margin-top: 12px;
+    gap: 8px;
+    border-radius: 16px;
+
     width: 100%;
     margin: 16px auto;
+    padding: 12px;
   }
 
   .scroll-input__field {
-    min-height: 60px;
+    min-height: 40px;
+    max-height: 80px;
+    font-size: 1rem;
+    padding: 8px 4px;
   }
 
   .sabha__divider {
     margin: 10px 0;
+  }
+  .scroll-input__actions {
+    margin-top: 8px;
+  }
+
+  .enter-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
   }
 }
