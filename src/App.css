@@ -903,11 +903,16 @@ img {
 
   .sabha__title {
     font-size: 2.2rem;
-    line-height: 1;
+    line-height: 1.05;
   }
 
   .sabha__subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .sabha__eyebrow {
+    font-size: 0.8rem;
+    letter-spacing: 0.18em;
   }
 
   .sabha__seal {
@@ -938,9 +943,7 @@ img {
 
   .scroll-input {
 
-    margin-top: 12px;
-    gap: 8px;
-    border-radius: 16px;
+    
 
     width: 100%;
     margin: 16px auto;
