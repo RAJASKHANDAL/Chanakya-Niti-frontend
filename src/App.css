@@ -897,11 +897,13 @@ img {
 
   .sabha__hero {
     padding: 16px;
+    flex-direction: row;
+    align-items: center;
   }
 
   .sabha__title {
-    font-size: 2rem;
-    line-height: 1.1;
+    font-size: 2.2rem;
+    line-height: 1;
   }
 
   .sabha__subtitle {
@@ -909,8 +911,8 @@ img {
   }
 
   .sabha__seal {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
 
   .chat-panel {
@@ -926,10 +928,12 @@ img {
   .message--acharya,
   .message--user {
     max-width: 95%;
+    padding: 12px 14px;
   }
 
   .message__text {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 12px 14px;
   }
 
   .scroll-input {
