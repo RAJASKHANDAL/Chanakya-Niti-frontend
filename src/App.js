@@ -13,7 +13,7 @@ function App() {
     {
       id: 1,
       sender: 'acharya',
-      text: 'Om Namah, seeker. I am Acharya Vishnugupta. Speak with clarity, and I shall answer with Niti, discipline, and insight.',
+      text: 'Om Namah, seeker.  am Acharya Vishnugupta. Speak with clarity, and I shall answer with Niti, discipline, and insight.',
       isTyping: false,
       meta: 'Acharya Vishnugupta · Sabha',
     },
