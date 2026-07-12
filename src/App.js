@@ -130,7 +130,7 @@ if (greetings.includes(trimmed.toLowerCase())) {
 
         "The mind wanders when purpose is unclear. Speak your thoughts.",
 
-        "Questions reveal the state of the mind. Ask without hesitation."
+        "Questions reveal the state of the mind.  without hesitation."
       ];  
 
   const reply =
