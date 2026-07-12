@@ -128,7 +128,7 @@ if (greetings.includes(trimmed.toLowerCase())) {
 
         "What answer does your inner self seek today?",
 
-        "The mind wanders when purpose is unclear. Speak your thoughts.",
+        "The mind wanders when purpose is unclear. Speak thoughts.",
 
         "Questions reveal the state of the mind. Ask without hesitation."
       ];  
